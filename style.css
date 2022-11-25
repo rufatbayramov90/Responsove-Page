@@ -1,1 +1,33 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 200, 252, 0.623), rgba(117, 19, 93, 0.603)),
+    url(images/banner.img);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
+.logo{
+    width: 90px;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.banner-text{
+    text-align: center;
+    color: crimson;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+} 
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
