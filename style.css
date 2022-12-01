@@ -5,7 +5,7 @@
 }
 .banner{
     background-image:
-    linear-gradient(to bottom, rgba(245, 200, 252, 0.623), rgba(117, 19, 93, 0.603)),
+    linear-gradient(to bottom, rgba(245, 200, 252, 0.397), rgba(117, 19, 93, 0.603)),
     url(images/banner.img);
     background-size: cover;
     background-position: center;
@@ -20,14 +20,57 @@
     border: 5px solid black;
 }
 .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgba(116, 13, 34, 0.849);
     text-align: center;
-    color: crimson;
-    padding-top: 180px;
+    
 }
 .banner-text h1{
     font-size: 130px;
+    text-shadow: 0px 2px 10px  white;
 } 
 .banner-text p{
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
+    text-shadow: 0px 2px 10px  rgba(255, 255, 255, 0.884);
+}
+.banner-btn {
+    margin-top: 30px;
+}
+.banner-btn a{   
+    text-decoration: none;   
+    display: inline-block;
+    margin: 0 20px;
+    width: 150px;
+    padding: 15px 0;
+    color: rgba(116, 13, 34, 0.849);
+    border: 2px solid rgba(116, 13, 34, 0.849) ;
+    position: relative;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    z-index: 1;
+    box-shadow: 0px 1px 8px  rgba(255, 255, 255, 0.884);
+    text-shadow: 0px 2px 10px  rgba(255, 255, 255, 0.884);
+    transition: .4s ease;
+}
+.banner-btn a span{
+    width: 0;
+    height: 60%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background-color:rgba(116, 13, 34, 0.849);
+    z-index: -1;
+    transition: .4s ease;
+ }
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: white;
+    border:2px solid  white;
 }
