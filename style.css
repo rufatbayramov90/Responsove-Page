@@ -210,4 +210,14 @@ nav ul li a{
         margin: 15px auto;
         padding: 5px 15px;
     }
+    /*About style*/
+    .title-text h1{
+        font-size: 30px;
+    }
+    .about{
+        flex-basis: 100%;
+    }
+    .about-img{
+        flex-basis: 100%;
+    }
 }
