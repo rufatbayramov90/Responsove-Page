@@ -85,7 +85,7 @@
     transition: .4s ease;
 }
 nav ul{
-    margin-top: 90px;
+    margin-top: 120px;
 }
 nav ul li{
     list-style: none;
@@ -95,6 +95,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 }
 #menuBtn{
     background: transparent;
@@ -157,10 +158,12 @@ nav ul li a{
    flex-wrap: wrap;
    align-items: center;
    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .about{
     flex-basis: 50%;
     padding: 0px 10px ;
+    margin-bottom: 65px;
 }
 .about-img{
     flex-basis: 50%;
@@ -175,15 +178,15 @@ nav ul li a{
 }
 
 .about h1{
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 600;
     color: rgb(190, 55, 82);
 }
 .about-desc{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .about-icon .bx{
     width: 45px;
@@ -197,6 +200,31 @@ nav ul li a{
 .about-text p{
      padding: 0 20px;
      text-align: initial;
+}
+/*-- services --*/
+#services{
+    width: 100%;
+    padding: 70px o;
+    background-color: rgb(90, 88, 88);
+}
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 45%;
+    text-align: center;
+    border-radius:7px ;
+    margin-bottom: 20px;
+    color: white;
+}
+.single-service img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
 }
 
 
@@ -219,5 +247,8 @@ nav ul li a{
     }
     .about-img{
         flex-basis: 100%;
+    }
+    .about-img{
+        width: 100%;
     }
 }
