@@ -256,6 +256,7 @@ nav ul li a{
     bottom: 40%;
     opacity: 1;
 }
+/* -------Features---------*/
 
 
 
@@ -281,4 +282,12 @@ nav ul li a{
     .about-img{
         width: 100%;
     }
-}
+    /*Services*/
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .single-service p{
+        font-size: 12px;
+    }
+ }
