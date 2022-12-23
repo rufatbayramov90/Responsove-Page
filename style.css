@@ -13,11 +13,17 @@
 }
 .logo{
     width: 90px;
-    position: absolute;
+    position: fixed;
     top: 5%;
     left: 6%;
     border-radius: 50%;
     border: 5px solid black;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.logo:hover{
+    border: 5px solid rgb(216, 86, 86);
+    box-shadow: 1px 1px 15px 5px rgb(216, 86, 86);
 }
 .banner-text{
     position: absolute;
@@ -277,6 +283,7 @@ nav ul li a{
     box-shadow: 0 1px 3px 1px rgba(236, 92, 121, 0.788);
     cursor: pointer;
     transition: .4s;
+    height: 250px;
 }
 .features-col p{
     font-size: 15px;
@@ -287,8 +294,8 @@ nav ul li a{
     margin: 20px 0;
 }
 .user img{
-    width: 120px;
-    height: 80px;
+    width: 200px;
+    height: 120px;
     margin-right: 10px;
     border-radius: 3px;
 }
@@ -297,6 +304,10 @@ nav ul li a{
 }
 .features-col:hover {
     transform: translateY(-7px);
+    box-shadow: 1px 10px 20px rgba(190, 87, 107, 0.808) ;
+}
+.features-col:hover .user img{
+    border: 1px solid black;
 }
 
 
